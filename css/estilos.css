@@ -1,0 +1,66 @@
+body,
+html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("../img/heroFrente.jpeg");
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+
+/*Estilos para el titulo del encabezado*/
+
+.hero-text {
+    text-align: center;
+    height: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 8vw;
+}
+
+.hero-text p {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+}
+
+.navbar {
+    box-shadow: 2px 2px 40px #000;
+    opacity: 0.9;
+}
+
+.navbar .nav-item .nav-link {
+    color: #000
+}
+
+.card-deck {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    column-count: 3;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto .card:hover i,
+#contacto .card:hover h4 {
+    color: #87d37c;
+}
